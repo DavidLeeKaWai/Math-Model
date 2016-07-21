@@ -1,4 +1,0 @@
-syms y(x);
-ans = dsolve(x^2 + y + (x - 2*y)*diff(y) == 0 , 'x')
-
-syms f(x) g(x)
